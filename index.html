@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Emilly Juliana — Cientista de Dados | Dashboards, Analytics & ML</title>
+  <meta name="description" content="Portfólio de Emilly Juliana Costa e Silva — projetos de dados, dashboards (Power BI/CRM Analytics), modelagem preditiva e consultoria. Contrate análises que viram decisão." />
+  <meta name="robots" content="index,follow" />
+  <meta property="og:title" content="Emilly Juliana — Cientista de Dados" />
+  <meta property="og:description" content="Dashboards, Analytics & Machine Learning focados em resultado." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/og-image.png" />
+  <meta property="og:url" content="https://SEU_USUARIO.github.io" />
+  <link rel="icon" href="assets/favicon.png" />
+  <style>
+    :root{
+      --bg: #0b0b12; --panel:#11121a; --muted:#aab2c0; --text:#eef2f7; --brand:#7c5cff; --brand-2:#1ee0a1; --accent:#ffd166;
+      --border: #222538; --shadow: 0 10px 30px rgba(0,0,0,.35);
+    }
+    @media (prefers-color-scheme: light){
+      :root{ --bg:#f8f9fb; --panel:#ffffff; --muted:#516173; --text:#0f1320; --border:#e7e9f2; --shadow:0 10px 24px rgba(16,24,40,.08) }
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue",Arial}
+    a{color:var(--brand);text-decoration:none}
+    img{max-width:100%;display:block}
+    .wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+    .btn{display:inline-block;padding:12px 18px;border-radius:14px;border:1px solid var(--border);background:linear-gradient(180deg,rgba(255,255,255,.04),rgba(0,0,0,.04));color:var(--text);font-weight:600;box-shadow:var(--shadow)}
+    .btn:hover{transform:translateY(-1px)}
+    .btn.primary{background:linear-gradient(135deg,var(--brand),var(--brand-2));border:0;color:#fff}
+    .chip{display:inline-flex;align-items:center;gap:8px;padding:8px 12px;border:1px solid var(--border);border-radius:999px;margin:4px 6px;font-size:14px;background:var(--panel)}
+    header{position:sticky;top:0;background:rgba(11,11,18,.7);backdrop-filter:saturate(180%) blur(10px);border-bottom:1px solid var(--border);z-index:10}
+    nav{display:flex;align-items:center;justify-content:space-between;height:64px}
+    nav .right{display:flex;align-items:center;gap:12px}
+    section{padding:72px 0;border-bottom:1px solid var(--border)}
+    .hero{padding:96px 0 72px;background:radial-gradient(1200px 400px at 10% -10%,rgba(124,92,255,.16),transparent),radial-gradient(1000px 500px at 110% 0,rgba(30,224,161,.12),transparent)}
+    .hero h1{font-size:44px;line-height:1.1;margin:0 0 12px}
+    .hero p{font-size:18px;color:var(--muted);max-width:740px}
+    .grid{display:grid;gap:20px}
+    @media(min-width:900px){.grid.cols-3{grid-template-columns:repeat(3,1fr)} .grid.cols-2{grid-template-columns:repeat(2,1fr)}}
+    .card{background:var(--panel);border:1px solid var(--border);border-radius:18px;padding:22px;box-shadow:var(--shadow)}
+    .card h3{margin:0 0 8px}
+    .pill{font-size:12px;color:#111;background:var(--accent);border-radius:999px;padding:4px 8px;font-weight:700;letter-spacing:.02em}
+    .kpis{display:flex;gap:18px;flex-wrap:wrap}
+    .kpi{background:var(--panel);border:1px solid var(--border);border-radius:16px;padding:14px 18px;min-width:140px}
+    .kpi b{font-size:24px}
+    ul.clean{list-style:none;padding:0;margin:0}
+    ul.clean li{margin:10px 0;padding-left:24px;position:relative}
+    ul.clean li:before{content:"•";color:var(--brand-2);position:absolute;left:0}
+    footer{padding:36px 0;color:var(--muted)}
+    .contact-form input,.contact-form textarea{width:100%;padding:12px 14px;border-radius:12px;border:1px solid var(--border);background:var(--panel);color:var(--text)}
+    .contact-form label{font-weight:600;display:block;margin:10px 0 6px}
+    .contact-form .row{display:grid;gap:12px}
+    @media(min-width:720px){.contact-form .row{grid-template-columns:1fr 1fr}}
+    .badge{padding:4px 8px;border-radius:999px;border:1px solid var(--border);font-size:12px;color:var(--muted)}
+    .mono{font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace}
+    .sr-only{position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden}
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Person",
+    "name":"Emilly Juliana Costa e Silva",
+    "jobTitle":"Cientista de Dados / Analytics Consultant",
+    "url":"https://SEU_USUARIO.github.io/",
+    "sameAs":["https://github.com/SEU_USUARIO","https://www.linkedin.com/in/SEU_LINKEDIN"],
+    "worksFor": {"@type":"Organization","name":"Freelancer"},
+    "knowsAbout":["Power BI","CRM Analytics","Salesforce","Python","Machine Learning","Computer Vision"],
+    "address":{"@type":"PostalAddress","addressCountry":"BR"}
+  }
+  </script>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <nav>
+        <div class="left"><a class="badge" href="#top">emilly.dev</a></div>
+        <div class="right">
+          <a href="#servicos" class="btn">Serviços</a>
+          <a href="#projetos" class="btn">Projetos</a>
+          <a href="#contato" class="btn primary">Pedir orçamento</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="wrap">
+        <span class="pill">Disponível para projetos part‑time</span>
+        <h1>Transformo dados em decisões — <span class="mono">dashboards</span>, <span class="mono">analytics</span> e <span class="mono">ML</span> prontos para o negócio.</h1>
+        <p>Sou <strong>Emilly Juliana</strong>, cientista de dados com background em <strong>Salesforce (Financial Services)</strong>, BI e visão computacional (mestrado em andamento). Ajudo equipes a criarem <em>pipelines</em> confiáveis, <strong>dashboards acionáveis</strong> e <strong>modelos preditivos</strong> que geram impacto real.</p>
+        <div style="margin-top:18px;display:flex;gap:12px;flex-wrap:wrap">
+          <a class="btn primary" href="#contato">Quero um orçamento</a>
+          <a class="btn" href="https://github.com/SEU_USUARIO" target="_blank" rel="noopener">Ver GitHub</a>
+          <a class="btn" href="assets/cv.pdf" target="_blank" rel="noopener">Baixar CV (PDF)</a>
+        </div>
+        <div class="kpis" style="margin-top:24px">
+          <div class="kpi"><b>+4 anos</b><div>com Salesforce e QA</div></div>
+          <div class="kpi"><b>10+ projetos</b><div>em dados & BI</div></div>
+          <div class="kpi"><b>Acadêmico</b><div>Mestrado em IA/Visão</div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="servicos">
+      <div class="wrap">
+        <h2 style="margin:0 0 14px">Serviços</h2>
+        <p class="muted">Escolha um pacote ou peça algo sob medida.</p>
+        <div class="grid cols-3" style="margin-top:16px">
+          <div class="card">
+            <h3>Dashboards que vendem a história</h3>
+            <p>Power BI e CRM Analytics (Tableau CRM) com foco em métricas do negócio, narrativas visuais e governança.</p>
+            <ul class="clean">
+              <li>Arquitetura de dados e modelagem</li>
+              <li>KPIs, DAX/recipes, segurança por fila</li>
+              <li>Entrega com guia de uso e vídeo</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Automação de dados (ETL/ELT)</h3>
+            <p>Pipelines em nuvem (GCP/Azure/AWS S3) e versionamento com Git. Do bruto ao pronto para o BI.</p>
+            <ul class="clean">
+              <li>Padronização, qualidade e testes</li>
+              <li>Jobs monitorados e reprocessamento</li>
+              <li>Documentação de mão em mão</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Modelagem Preditiva & NLP</h3>
+            <p>Experimentos rápidos e reprodutíveis com Python (pandas, scikit-learn, PyTorch/TensorFlow) e MLOps leve.</p>
+            <ul class="clean">
+              <li>POCs e cadernos executáveis</li>
+              <li>Métricas claras e versão de dados</li>
+              <li>Hand‑off para o time interno</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projetos">
+      <div class="wrap">
+        <h2 style="margin:0 0 14px">Projetos em destaque</h2>
+        <div class="grid cols-3" style="margin-top:16px">
+          <article class="card">
+            <h3>Detecção de presença sob oclusão</h3>
+            <p>Pesquisa de mestrado: fusão de imagens térmicas e visíveis para detecção robusta (YOLO + mascaramento).</p>
+            <p><a href="https://github.com/SEU_USUARIO/oclusao-deteccao" target="_blank" rel="noopener">Repositório</a></p>
+          </article>
+          <article class="card">
+            <h3>Dashboards Financeiros (CRM Analytics)</h3>
+            <p>KPIs de Financial Services com segmentação, segurança por função e stories explicativas.</p>
+            <p><a href="https://github.com/SEU_USUARIO/crm-analytics-fsi" target="_blank" rel="noopener">Repositório</a></p>
+          </article>
+          <article class="card">
+            <h3>Clustering de veículos de lançamento</h3>
+            <p>ETL da Launch Library 2 + análise de famílias de foguetes para insights do setor aeroespacial.</p>
+            <p><a href="https://github.com/SEU_USUARIO/launch-analytics" target="_blank" rel="noopener">Repositório</a></p>
+          </article>
+          <article class="card">
+            <h3>Predição de %GC (PLS)</h3>
+            <p>Pipeline com preprocessamento num/cat, regressão PLS e validação cruzada para % de gordura corporal.</p>
+            <p><a href="https://github.com/SEU_USUARIO/bodyfat-pls" target="_blank" rel="noopener">Repositório</a></p>
+          </article>
+          <article class="card">
+            <h3>Operacional — Saúde</h3>
+            <p>Automação de indicadores hospitalares e painéis de acompanhamento em Power BI.</p>
+            <p><a href="https://github.com/SEU_USUARIO/health-bi" target="_blank" rel="noopener">Repositório</a></p>
+          </article>
+          <article class="card">
+            <h3>Recomendação simples</h3>
+            <p>Protótipo de recomendador com baseline transparente e documentação didática.</p>
+            <p><a href="https://github.com/SEU_USUARIO/recommender-basics" target="_blank" rel="noopener">Repositório</a></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="wrap">
+        <h2 style="margin:0 0 14px">Tech & Ferramentas</h2>
+        <div>
+          <span class="chip">Power BI</span>
+          <span class="chip">CRM Analytics</span>
+          <span class="chip">Salesforce</span>
+          <span class="chip">Python</span>
+          <span class="chip">Pandas</span>
+          <span class="chip">Scikit‑learn</span>
+          <span class="chip">PyTorch/TensorFlow</span>
+          <span class="chip">SQL</span>
+          <span class="chip">ETL/ELT</span>
+          <span class="chip">Git/GitHub</span>
+          <span class="chip">Nuvem (AWS/GCP/Azure)</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="planos">
+      <div class="wrap">
+        <h2 style="margin:0 0 14px">Planos rápidos</h2>
+        <div class="grid cols-3" style="margin-top:16px">
+          <div class="card">
+            <h3>Start</h3>
+            <p class="muted">Boa para validar uma dor</p>
+            <ul class="clean">
+              <li>1 dashboard prioritário</li>
+              <li>Modelo de dados simples</li>
+              <li>1 rodada de revisão</li>
+            </ul>
+            <p><span class="badge">A partir de R$ 1.200</span></p>
+          </div>
+          <div class="card">
+            <h3>Pro</h3>
+            <p class="muted">Do dado ao insight</p>
+            <ul class="clean">
+              <li>ETL + 3 painéis</li>
+              <li>Guia e vídeo de hand‑off</li>
+              <li>Suporte de 15 dias</li>
+            </ul>
+            <p><span class="badge">A partir de R$ 3.500</span></p>
+          </div>
+          <div class="card">
+            <h3>Enterprise</h3>
+            <p class="muted">Sob medida</p>
+            <ul class="clean">
+              <li>Escopo customizado</li>
+              <li>Segurança e governança</li>
+              <li>Treinamento do time</li>
+            </ul>
+            <p><span class="badge">Sob proposta</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre">
+      <div class="wrap">
+        <h2 style="margin:0 0 14px">Sobre mim</h2>
+        <div class="grid cols-2" style="margin-top:16px;align-items:start">
+          <div class="card">
+            <p>Formada em Ciência da Computação, pós-graduação em Data Science e mestranda em Engenharia Aeroespacial (IA/Visão Computacional). <strong>4+ anos</strong> em Salesforce (Financial Services), QA e Analytics. Hoje foco em <strong>projetos que unem BI e ML</strong> com entrega clara, didática e replicável.</p>
+          </div>
+          <div class="card">
+            <ul class="clean">
+              <li>🇧🇷 Base: Nordeste (remoto)</li>
+              <li>🧪 Métodos reprodutíveis e código versionado</li>
+              <li>🗣️ Comunicação clara com stakeholders</li>
+              <li>📚 Documentação e hand‑off sem fricção</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato">
+      <div class="wrap">
+        <h2 style="margin:0 0 14px">Contato</h2>
+        <p class="muted">Conte rapidamente sobre o seu contexto. Respondo em até 1 dia útil.</p>
+        <form class="contact-form card" action="https://formspree.io/f/SEU_ENDPOINT" method="POST">
+          <div class="row">
+            <div>
+              <label for="nome">Nome</label>
+              <input id="nome" name="nome" placeholder="Seu nome" required />
+            </div>
+            <div>
+              <label for="email">E‑mail</label>
+              <input id="email" name="email" type="email" placeholder="voce@empresa.com" required />
+            </div>
+          </div>
+          <label for="msg">Mensagem</label>
+          <textarea id="msg" name="mensagem" rows="5" placeholder="Descreva o objetivo, prazo e contexto"></textarea>
+          <input type="hidden" name="_subject" value="Novo contato pelo portfólio" />
+          <div style="display:flex;gap:12px;align-items:center;margin-top:12px;flex-wrap:wrap">
+            <button class="btn primary" type="submit">Enviar mensagem</button>
+            <a class="btn" href="mailto:seuemail@exemplo.com">Enviar por e‑mail</a>
+            <a class="btn" href="https://wa.me/5599999999999" target="_blank" rel="noopener">Falar no WhatsApp</a>
+          </div>
+          <p class="muted" style="margin-top:8px;font-size:13px">Ao enviar, você concorda com o contato para fins de orçamento.</p>
+          <noscript><p>Formulário requer JavaScript. Envie um e‑mail para <a href="mailto:seuemail@exemplo.com">seuemail@exemplo.com</a>.</p></noscript>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div style="display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap">
+        <div>© <span id="y"></span> Emilly Juliana — Dados que viram decisão.</div>
+        <div style="display:flex;gap:12px">
+          <a href="https://github.com/SEU_USUARIO" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.linkedin.com/in/SEU_LINKEDIN" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="assets/cv.pdf" target="_blank" rel="noopener">CV</a>
+        </div>
+      </div>
+    </div>
+    <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+  </footer>
+</body>
+</html>
